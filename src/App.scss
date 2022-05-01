@@ -1,0 +1,39 @@
+// || General
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+// - Header 
+header {
+  padding-top: 48px;
+  padding-bottom: 54px;
+  display: flex;
+  justify-content: center;
+}
