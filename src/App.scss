@@ -341,3 +341,86 @@ h1 {
 
   color: #87879d;
 }
+
+// Second Section
+.second-sec {
+  position: relative;
+  margin-top: 176px;
+  background: url("./assets/images/second-sec-back.png") no-repeat top center /
+    cover;
+  background-color: #4d96a9;
+
+  padding-top: 92px;
+  padding-bottom: 72px;
+}
+
+.second-sec .section-number__css-icon {
+  position: absolute;
+  top: -112px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.second-sec .section-number__css-icon__circle {
+  background: #fafafa;
+}
+
+.second-sec__h2 {
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #fafafa;
+
+  padding: 0 24px;
+}
+
+.second-sec__p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #fafafa;
+
+  margin-top: 24px;
+
+  padding: 0 24px;
+}
+
+.second-sec__btn {
+  background: #855fb1;
+  border-radius: 29px;
+
+  width: 193px;
+  height: 58px;
+
+  margin: 0 auto;
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.second-sec__btn__version-number {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #d9b8ff;
+
+  margin-left: 4px;
+}
