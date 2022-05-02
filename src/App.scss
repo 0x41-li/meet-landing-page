@@ -315,7 +315,6 @@ h1 {
 
     gap: 11px;
     padding: 0;
-
   }
 }
 
@@ -405,13 +404,23 @@ h1 {
 // Second Section
 .second-sec {
   position: relative;
-  margin-top: 176px;
+  margin-top: 176px; // cuz the css section number icon need to be position negatively and overflow the section
   background: url("./assets/images/second-sec-back.png") no-repeat top center /
     cover;
   background-color: #4d96a9;
 
   padding-top: 92px;
   padding-bottom: 72px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 192px;
+
+    background: url("./assets/images/second-sec-back-tablet.png") no-repeat top
+      center / cover;
+    background-color: #4d96a9;
+
+    padding-bottom: 66px;
+  }
 }
 
 .second-sec .section-number__css-icon {
@@ -432,8 +441,6 @@ h1 {
   font-size: 32px;
   line-height: 36px;
 
-  text-align: center;
-
   color: #fafafa;
 
   padding: 0 24px;
@@ -442,6 +449,11 @@ h1 {
 
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 44px;
+  }
 }
 
 .second-sec__p {
@@ -461,6 +473,11 @@ h1 {
 
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 573px;
+    margin-top: 32px;
+  }
 }
 
 .second-sec__btn {
@@ -482,6 +499,10 @@ h1 {
   line-height: 26px;
 
   color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
+  }
 }
 
 .second-sec__btn__version-number {
