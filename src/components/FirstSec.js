@@ -5,6 +5,11 @@ import secondImg from "../assets/images/fs-gird-2.png";
 import thirdImg from "../assets/images/fs-gird-3.png";
 import fourthImg from "../assets/images/fs-gird-4.png";
 
+import firstImgTablet from "../assets/images/fs-gird-1-tablet.png";
+import secondImgTablet from "../assets/images/fs-gird-2-tablet.png";
+import thirdImgTablet from "../assets/images/fs-gird-3-tablet.png";
+import fourthImgTablet from "../assets/images/fs-gird-4-tablet.png";
+
 export default function FirstSec() {
   return (
     <div className="first-sec">
@@ -15,10 +20,17 @@ export default function FirstSec() {
         </div>
       </div>
       <div className="first-sec__grid">
-        <img src={firstImg} alt="" />
-        <img src={secondImg} alt="" />
-        <img src={thirdImg} alt="" />
-        <img src={fourthImg} alt="" />
+        {/* Mobile grid images */}
+        <img class="first-sec__grid-m" src={firstImg} alt="" />
+        <img class="first-sec__grid-m" src={secondImg} alt="" />
+        <img class="first-sec__grid-m" src={thirdImg} alt="" />
+        <img class="first-sec__grid-m" src={fourthImg} alt="" />
+
+        {/* Tablet grid images */}
+        <img className="first-sec__grid-t" src={firstImgTablet} alt="" />
+        <img className="first-sec__grid-t" src={secondImgTablet} alt="" />
+        <img className="first-sec__grid-t" src={thirdImgTablet} alt="" />
+        <img className="first-sec__grid-t" src={fourthImgTablet} alt="" />
       </div>
       <h3 className="first-sec__h3">Built for modern use</h3>
       <h2 className="first-sec__h2">Smarter meetings, all in one place</h2>

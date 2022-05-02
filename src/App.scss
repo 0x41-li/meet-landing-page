@@ -241,6 +241,15 @@ h1 {
 
 .first-sec {
   margin-top: 64px;
+
+  max-width: 414px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: unset;
+  }
 }
 
 .section-number__css-icon {
@@ -297,6 +306,30 @@ h1 {
   max-width: 327px;
   margin: 0 auto;
   margin-top: 64px;
+
+  @media screen and (min-width: 768px) {
+    max-width: unset;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 11px;
+    padding: 0 40px;
+  }
+}
+
+.first-sec__grid-m {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.first-sec__grid-t {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .first-sec__h3 {
@@ -312,6 +345,14 @@ h1 {
   color: #4d96a9;
 
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    max-width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 48px;
+  }
 }
 
 .first-sec__h2 {
@@ -326,6 +367,17 @@ h1 {
 
   padding: 0 24px;
   margin-top: 24px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 445px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 40px;
+    line-height: 44px;
+
+    margin-top: 16px;
+  }
 }
 
 .first-sec__p {
@@ -340,6 +392,13 @@ h1 {
   text-align: center;
 
   color: #87879d;
+
+  @media screen and (min-width: 768px) {
+    max-width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
 }
 
 // Second Section
@@ -377,6 +436,11 @@ h1 {
   color: #fafafa;
 
   padding: 0 24px;
+
+  max-width: 414px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-sec__p {
@@ -391,6 +455,11 @@ h1 {
   margin-top: 24px;
 
   padding: 0 24px;
+
+  max-width: 414px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-sec__btn {
