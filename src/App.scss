@@ -250,6 +250,10 @@ h1 {
   @media screen and (min-width: 768px) {
     max-width: unset;
   }
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 110px;
+  }
 }
 
 .section-number__css-icon {
@@ -316,6 +320,11 @@ h1 {
     gap: 11px;
     padding: 0;
   }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1110px;
+    gap: 30px;
+  }
 }
 
 .first-sec__grid-m {
@@ -328,6 +337,18 @@ h1 {
   display: none;
 
   @media screen and (min-width: 768px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.first-sec__grid-d {
+  display: none;
+
+  @media screen and (min-width: 1440px) {
     display: block;
   }
 }
@@ -352,6 +373,10 @@ h1 {
     margin-right: auto;
 
     margin-top: 48px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 80px;
   }
 }
 
@@ -421,6 +446,22 @@ h1 {
 
     padding-bottom: 66px;
   }
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 184px;
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 116px;
+    padding-bottom: 104px;
+    padding-left: 165px;
+    padding-right: 165px;
+
+    background: url("./assets/images/second-sec-back-desktop.png") no-repeat top
+      center / cover;
+    background-color: #4d96a9;
+  }
 }
 
 .second-sec .section-number__css-icon {
@@ -454,6 +495,17 @@ h1 {
     font-size: 40px;
     line-height: 44px;
   }
+
+  @media screen and (min-width: 1440px) {
+    flex: 0 0 350px;
+    text-align: left;
+    margin-left: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    margin-right: 165px;
+  }
 }
 
 .second-sec__p {
@@ -477,6 +529,18 @@ h1 {
   @media screen and (min-width: 768px) {
     max-width: 573px;
     margin-top: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    flex: 0 0 350px;
+    text-align: left;
+
+    margin: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    margin-right: 92px;
   }
 }
 
@@ -504,6 +568,12 @@ h1 {
 
   @media screen and (min-width: 768px) {
     margin-top: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin: 0;
+
+    flex: 0 0 193px;
   }
 }
 
