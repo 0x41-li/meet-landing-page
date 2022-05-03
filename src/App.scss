@@ -566,6 +566,8 @@ h1 {
 
   cursor: pointer;
 
+  transition: background-color 0.4s;
+
   @media screen and (min-width: 768px) {
     margin-top: 40px;
   }
@@ -575,6 +577,11 @@ h1 {
 
     flex: 0 0 193px;
   }
+}
+
+.second-sec__btn:hover {
+
+  background: #B18BDD;
 }
 
 .second-sec__btn__version-number {
