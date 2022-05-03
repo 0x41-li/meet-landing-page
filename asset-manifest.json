@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/meet-landing-page/static/css/main.d155ed5d.css",
+    "main.js": "/meet-landing-page/static/js/main.f0bb2dff.js",
+    "static/media/hero-img-desktop.png": "/meet-landing-page/static/media/hero-img-desktop.d16dc210572234c8c94b.png",
+    "static/media/hero-img-tablet.png": "/meet-landing-page/static/media/hero-img-tablet.1dcd320f6ac07f326a3b.png",
+    "static/media/second-sec-back-desktop.png": "/meet-landing-page/static/media/second-sec-back-desktop.c2da6c6aebe6a7a418fb.png",
+    "static/media/second-sec-back-tablet.png": "/meet-landing-page/static/media/second-sec-back-tablet.92a70caa8314630936c7.png",
+    "static/media/fs-gird-2-desktop.png": "/meet-landing-page/static/media/fs-gird-2-desktop.4badab639613820a342e.png",
+    "static/media/fs-gird-3-desktop.png": "/meet-landing-page/static/media/fs-gird-3-desktop.6d25ee9a1215ebd7f6a8.png",
+    "static/media/second-sec-back.png": "/meet-landing-page/static/media/second-sec-back.7f56a5aa4dd383dc6791.png",
+    "static/media/fs-gird-4-desktop.png": "/meet-landing-page/static/media/fs-gird-4-desktop.3a5639c694310a5dc7e8.png",
+    "static/media/fs-gird-1-desktop.png": "/meet-landing-page/static/media/fs-gird-1-desktop.fa37f88712056988ba99.png",
+    "static/media/hero-img-mobile.png": "/meet-landing-page/static/media/hero-img-mobile.09883de34d90234c1ff4.png",
+    "static/media/fs-gird-3-tablet.png": "/meet-landing-page/static/media/fs-gird-3-tablet.9416fdeb5318be1bc43b.png",
+    "static/media/fs-gird-2-tablet.png": "/meet-landing-page/static/media/fs-gird-2-tablet.505de2abfae49080ceb6.png",
+    "static/media/fs-gird-4-tablet.png": "/meet-landing-page/static/media/fs-gird-4-tablet.52de4c306feff9cf037a.png",
+    "static/media/fs-gird-1-tablet.png": "/meet-landing-page/static/media/fs-gird-1-tablet.c680d81dab979f848afa.png",
+    "static/media/fs-gird-3.png": "/meet-landing-page/static/media/fs-gird-3.833dc2148439b0f646eb.png",
+    "static/media/fs-gird-2.png": "/meet-landing-page/static/media/fs-gird-2.c51fd92cb3ae1e3306e8.png",
+    "static/media/fs-gird-4.png": "/meet-landing-page/static/media/fs-gird-4.1ef063ffba8c48d7ad10.png",
+    "static/media/fs-gird-1.png": "/meet-landing-page/static/media/fs-gird-1.cdc2e8ce0b7cefd0a332.png",
+    "index.html": "/meet-landing-page/index.html",
+    "main.d155ed5d.css.map": "/meet-landing-page/static/css/main.d155ed5d.css.map",
+    "main.f0bb2dff.js.map": "/meet-landing-page/static/js/main.f0bb2dff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d155ed5d.css",
+    "static/js/main.f0bb2dff.js"
+  ]
+}
