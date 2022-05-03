@@ -1,5 +1,6 @@
 {
   "name": "meet-landing-page",
+  "homepage": "https://0x41-li.github.io/meet-landing-page/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^7.0.1"
   }
 }
