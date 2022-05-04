@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meet-landing-page/static/css/main.188085bb.css",
+    "main.css": "/meet-landing-page/static/css/main.66300c7f.css",
     "main.js": "/meet-landing-page/static/js/main.f0bb2dff.js",
     "static/media/hero-img-desktop.png": "/meet-landing-page/static/media/hero-img-desktop.d16dc210572234c8c94b.png",
     "static/media/hero-img-tablet.png": "/meet-landing-page/static/media/hero-img-tablet.1dcd320f6ac07f326a3b.png",
@@ -21,11 +21,11 @@
     "static/media/fs-gird-4.png": "/meet-landing-page/static/media/fs-gird-4.1ef063ffba8c48d7ad10.png",
     "static/media/fs-gird-1.png": "/meet-landing-page/static/media/fs-gird-1.cdc2e8ce0b7cefd0a332.png",
     "index.html": "/meet-landing-page/index.html",
-    "main.188085bb.css.map": "/meet-landing-page/static/css/main.188085bb.css.map",
+    "main.66300c7f.css.map": "/meet-landing-page/static/css/main.66300c7f.css.map",
     "main.f0bb2dff.js.map": "/meet-landing-page/static/js/main.f0bb2dff.js.map"
   },
   "entrypoints": [
-    "static/css/main.188085bb.css",
+    "static/css/main.66300c7f.css",
     "static/js/main.f0bb2dff.js"
   ]
 }
